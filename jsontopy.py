@@ -6,7 +6,7 @@ fake = Faker()
 hds ={
 'User-Agent':fake.user_agent(),
 'authorization': 'Bearer %.%.%',
-'x-user-geo': '104.310345,30.946448',
+'x-user-geo': 'lont,lat',
 'user-agent':'okhttp/4.3.1'
 }
 
