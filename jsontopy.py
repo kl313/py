@@ -5,8 +5,8 @@ fake = Faker()
 #with open('response.json', 'r', encoding='utf-8') as f:  #文件无需关闭
 hds ={
 'User-Agent':fake.user_agent(),
-'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAwMTY3MTYsIm5hbWUiOiIxMzc4MzUzMTU5MCIsImFwcFVzZXJJZCI6MTQzMDM3MDcsImlhdCI6MTY0NzM0MjM1NywiZXhwIjoxNjU1Mzc3NTU3fQ.5pzDAEOQCp5ovDehaVzKHeRXDj8Es_mjSgUDWLRCFwc',
-'x-user-geo': '104.310345,30.946448',
+'authorization': 'Bearer %.%.%',
+'x-user-geo': 'lont,lat',
 'user-agent':'okhttp/4.3.1'
 }
 
